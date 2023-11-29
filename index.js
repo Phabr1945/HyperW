@@ -211,6 +211,18 @@ const ICONS = [
         file: "ts.svg",
         name: "typescript"
     },
+    {
+        div: {
+            right: "80%",
+            top: "30%",
+            width: "7vw",
+            height: "7vh",
+        },
+        img: { width: "3vw" },
+        offset: 400,
+        file: "TI.svg",
+        name: "TexasInstruments"
+    },
 ];
 
 const getWidth = () => {
@@ -341,7 +353,7 @@ const main = async (h) => {
     FloatingIconsComponent.link();
 
     let timeDelta = 0;
-    const SPEED = 1.0;
+    const SPEED = 0.25;
 
     function render() {
         timeDelta += SPEED;
